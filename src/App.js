@@ -10,10 +10,10 @@ import aboutimage1 from "./img/download.png";
 
 
 function App() {
-  fetch('https://reqres.in/api/users?page=2')
-  .then((res) => {
-    console.log(res);
-  });
+  // fetch('https://reqres.in/api/users?page=2')
+  // .then((res) => {
+  //   console.log(res);
+  // });
   
   // .then(json => {
     

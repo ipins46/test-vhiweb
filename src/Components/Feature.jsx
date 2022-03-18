@@ -5,6 +5,10 @@ import featureimage1 from '../img/feature_2.png';
 import featureimage2 from '../img/feature_3.png';
 
 function Feature() {
+  fetch('https://reqres.in/api/users?page=2')
+  .then((res) => {
+    console.log(res);
+  });
   return (
     <div id='features'>
       <div className='a-container'>
